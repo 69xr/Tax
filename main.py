@@ -19,6 +19,7 @@ CHANNEL_ID = 1229984044561989704  # Replace with your actual channel ID
 # Event: Bot is ready
 @bot.event
 async def on_ready():
+    print(chalk.red('Coded By mOoN (69xr)'))
     print(chalk.green("[+] Bot is ready"))
     print(chalk.yellow(f"[+] Bot Shard Count: {bot.shard_count}"))
     print(chalk.magenta(f"[+] Bot User: {bot.user}"))
